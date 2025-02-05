@@ -10,9 +10,19 @@
     <h1>HTML Forms</h1>
 
     <h2>Register</h2>
-    
+
     <form id="register">
         <input type="text" name="username" id="username" placeholder="Username" required>
+
+        <input type="email" name="email" id="email" required placeholder="Email">
+        
+        <input type="number" name="age" id="age" min="18" required placeholder="Age">
+        
+        <input type="text" name="bio" id="bio" minlength="10" maxlength="256" placeholder="Enter a short bio">
+
+        <input type="submit" value="Register">
     </form>
+
+
 </body>
 </html>
